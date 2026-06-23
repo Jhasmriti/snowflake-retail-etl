@@ -41,7 +41,39 @@ The project simulates a real-world retail analytics environment where customer, 
                  │ Business Analytics View │
                  └─────────────────────────┘
 ```
+# 📸 Snowflake Implementation
 
+## 🥉 Bronze Layer Tables
+
+The Bronze layer stores raw data ingested directly from source CSV files.
+
+![Bronze Tables](images/bronze_tables.png)
+
+---
+
+## 🥈 Silver Layer Tables
+
+The Silver layer applies data cleansing, standardization, and validation rules.
+
+![Silver Tables](images/silver_tables.png)
+
+---
+
+## 🥇 Gold Layer Views
+
+The Gold layer contains business-ready analytical views optimized for reporting and decision-making.
+
+![Gold Views](images/gold_views.png)
+
+---
+
+## 📊 Daily Sales Analysis Output
+
+Sample output from the analytical view created in the Gold layer.
+
+![Sales Analysis](images/sales_analysis.png)
+
+---
  
 
 # 🎯 Business Problem
